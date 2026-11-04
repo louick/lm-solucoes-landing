@@ -1,0 +1,509 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>LM Soluções · Softhouse em Belém do Pará</title>
+<meta name="description" content="LM Soluções é uma softhouse de Belém do Pará. Desde 2020 desenvolvemos sistemas web, apps, e-commerce, automações e inteligência artificial sob medida. Criadores da Planta e da Buy+.">
+<meta name="theme-color" content="#05060b">
+<meta property="og:title" content="LM Soluções · Se é software, a gente constrói">
+<meta property="og:description" content="Softhouse de Belém do Pará. Sistemas, apps, e-commerce, automação e IA sob medida, desde 2020.">
+<meta property="og:image" content="https://louick.github.io/lm-solucoes-landing/assets/og-image.jpg">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<link rel="icon" href="assets/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=1">
+</head>
+<body>
+
+<a class="skip" href="#main">Pular para o conteúdo</a>
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <div class="nav-bar">
+    <a class="brand" href="#topo" aria-label="LM Soluções, início">
+      <img src="assets/lm-mark.png" alt="" width="586" height="339">
+      <span>LM <b>Soluções</b></span>
+    </a>
+    <nav class="nav-links" aria-label="Principal">
+      <a href="#servicos">Serviços</a>
+      <a href="#produtos">Produtos</a>
+      <a href="#projeto">Monte seu projeto</a>
+      <a href="#processo">Como trabalhamos</a>
+      <a href="#faq">Dúvidas</a>
+    </nav>
+    <a class="btn btn-sm btn-grad nav-cta" href="#contato">Falar com a gente</a>
+    <button class="burger" id="burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="navMobile"><span></span><span></span></button>
+  </div>
+  <nav class="nav-mobile" id="navMobile" aria-label="Menu">
+    <a href="#servicos">Serviços</a>
+    <a href="#produtos">Produtos</a>
+    <a href="#projeto">Monte seu projeto</a>
+    <a href="#processo">Como trabalhamos</a>
+    <a href="#faq">Dúvidas</a>
+    <a class="btn btn-grad" href="#contato">Falar com a gente</a>
+  </nav>
+</header>
+
+<main id="main">
+
+<!-- HERO -->
+<section class="hero" id="topo">
+  <canvas class="hero-field" id="field" aria-hidden="true"></canvas>
+  <div class="hero-glow" aria-hidden="true"></div>
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="pill reveal"><span class="pulse"></span>Softhouse · Belém do Pará · desde 2020</p>
+      <h1 class="reveal d1"><span class="ln">Se é software,</span><br><span class="grad-text ln">a gente constrói.</span></h1>
+      <p class="hero-sub reveal d2">Sistemas web, aplicativos, e-commerce, automações e inteligência artificial <b>feitos sob medida</b> para o seu negócio. Do primeiro rascunho ao servidor em produção, com quem escreve o código do seu lado.</p>
+      <div class="hero-ctas reveal d3">
+        <a class="btn btn-grad btn-lg" href="#projeto">Montar meu projeto <span class="arr">→</span></a>
+        <a class="btn btn-ghost btn-lg" href="#produtos">Ver nossos produtos</a>
+      </div>
+      <ul class="hero-proof reveal d4">
+        <li><b>2020</b><span>no mercado desde</span></li>
+        <li><b>2</b><span>plataformas próprias no ar</span></li>
+        <li><b>100%</b><span>do código é seu</span></li>
+      </ul>
+    </div>
+
+    <div class="hero-visual reveal d2" id="orbStage" aria-hidden="true">
+      <div class="orb" id="orb">
+        <div class="ring r1"></div>
+        <div class="ring r2"><i></i></div>
+        <div class="ring r3"><i></i></div>
+        <div class="orb-core">
+          <img src="assets/lm-mark.png" alt="" width="586" height="339">
+        </div>
+        <div class="orbit">
+          <span style="--a:0deg">Web</span>
+          <span style="--a:60deg">Apps</span>
+          <span style="--a:120deg">IA</span>
+          <span style="--a:180deg">APIs</span>
+          <span style="--a:240deg">Cloud</span>
+          <span style="--a:300deg">E-commerce</span>
+        </div>
+      </div>
+
+      <div class="float code-card">
+        <div class="cc-head"><i></i><i></i><i></i><span>deploy.ts</span></div>
+        <pre id="typed"></pre>
+      </div>
+      <div class="float stat-card">
+        <span class="sc-dot"></span>
+        <div><b>Deploy concluído</b><small>produção · 38s</small></div>
+      </div>
+      <div class="float ping-card">
+        <svg viewBox="0 0 120 36" aria-hidden="true"><polyline points="0,26 14,24 26,28 38,14 50,20 62,8 74,16 86,10 98,18 110,6 120,10"/></svg>
+        <div><b>Tempo de resposta</b><small>p95 · 120 ms</small></div>
+      </div>
+    </div>
+  </div>
+  <a class="scroll-hint" href="#servicos" aria-label="Rolar para serviços"><span></span></a>
+</section>
+
+<!-- TICKER -->
+<div class="ticker" aria-hidden="true">
+  <div class="ticker-track">
+    <span>Sistemas web</span><span>Apps iOS e Android</span><span>E-commerce</span><span>Inteligência artificial</span><span>Automação</span><span>APIs e integrações</span><span>Dashboards</span><span>Cloud e DevOps</span><span>UI/UX</span><span>SaaS</span>
+    <span>Sistemas web</span><span>Apps iOS e Android</span><span>E-commerce</span><span>Inteligência artificial</span><span>Automação</span><span>APIs e integrações</span><span>Dashboards</span><span>Cloud e DevOps</span><span>UI/UX</span><span>SaaS</span>
+  </div>
+</div>
+
+<!-- SERVIÇOS -->
+<section class="section" id="servicos">
+  <div class="wrap">
+    <header class="sec-head reveal">
+      <p class="kicker">O que a gente faz</p>
+      <h2>Da landing page ao <span class="grad-text">sistema inteiro.</span></h2>
+      <p class="sec-sub">Se roda em tela, servidor ou nuvem, a LM projeta, desenvolve e mantém. Estas são as soluções que mais entregamos, mas a lista não termina aqui.</p>
+    </header>
+
+    <div class="bento">
+      <!-- Sistemas web -->
+      <article class="card c-wide reveal">
+        <div class="card-txt">
+          <h3>Sistemas web sob medida</h3>
+          <p>ERPs, CRMs, portais, áreas do cliente e plataformas SaaS desenhados em cima do seu processo, não o contrário. Multiusuário, com permissões, relatórios e integração com o que você já usa.</p>
+          <ul class="tags"><li>ERP</li><li>CRM</li><li>SaaS</li><li>Portais</li></ul>
+        </div>
+        <div class="ui-admin" aria-hidden="true">
+          <div class="ua-side"><b></b><i class="on"></i><i></i><i></i><i></i></div>
+          <div class="ua-main">
+            <div class="ua-kpis">
+              <div><small>Receita do mês</small><strong>R$ 84,2 mil</strong><em>+12,4%</em></div>
+              <div><small>Pedidos</small><strong>1.284</strong><em>+8,1%</em></div>
+              <div><small>Tickets abertos</small><strong>7</strong><em class="dn">−3</em></div>
+            </div>
+            <div class="ua-chart"><span style="--h:38%"></span><span style="--h:52%"></span><span style="--h:46%"></span><span style="--h:64%"></span><span style="--h:58%"></span><span style="--h:72%"></span><span style="--h:69%"></span><span style="--h:84%"></span><span style="--h:78%"></span><span style="--h:92%"></span></div>
+            <div class="ua-rows">
+              <p><span>#2087 · Construtora Norte</span><em class="ok">Pago</em></p>
+              <p><span>#2086 · Clínica Vida</span><em class="wait">Em análise</em></p>
+              <p><span>#2085 · Mercado Açaí</span><em class="ok">Pago</em></p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Apps -->
+      <article class="card c-tall reveal d1">
+        <div class="card-txt">
+          <h3>Aplicativos iOS e Android</h3>
+          <p>Apps nativos ou multiplataforma, publicados na App Store e no Google Play, com login, notificações push e modo offline.</p>
+        </div>
+        <div class="ui-phone" aria-hidden="true">
+          <div class="up-notch"></div>
+          <div class="up-top"><small>Bom dia, Ana</small><b>Sua agenda</b></div>
+          <div class="up-card g"><small>09:30</small><b>Consulta · Dr. Paulo</b><span>Confirmada</span></div>
+          <div class="up-card"><small>14:00</small><b>Retorno · exames</b><span class="w">Lembrete ativo</span></div>
+          <div class="up-push"><i></i><div><b>Lembrete</b><small>Sua consulta é em 30 min</small></div></div>
+          <div class="up-tab"><i class="on"></i><i></i><i></i><i></i></div>
+        </div>
+      </article>
+
+      <!-- IA -->
+      <article class="card c-mid reveal">
+        <div class="card-txt">
+          <h3>Inteligência artificial aplicada</h3>
+          <p>Agentes que atendem no WhatsApp, leem documentos, resumem reuniões e respondem com os dados da sua empresa. IA trabalhando, não enfeitando.</p>
+        </div>
+        <div class="ui-chat" aria-hidden="true">
+          <p class="me">Tem horário amanhã à tarde?</p>
+          <p class="bot">Tenho sim! 14h ou 16h30. Qual prefere? 🙂</p>
+          <p class="me">16h30</p>
+          <p class="bot typing"><i></i><i></i><i></i></p>
+        </div>
+      </article>
+
+      <!-- Automação -->
+      <article class="card c-mid reveal d1">
+        <div class="card-txt">
+          <h3>Automação e integrações</h3>
+          <p>Seus sistemas conversando sozinhos. Pedido entra, nota sai, cliente é avisado e a planilha se atualiza, sem ninguém copiar e colar.</p>
+        </div>
+        <div class="ui-flow" aria-hidden="true">
+          <span class="n">WhatsApp</span><span class="l"></span><span class="n">CRM</span><span class="l"></span><span class="n">Nota fiscal</span><span class="l"></span><span class="n hi">Cliente avisado</span>
+        </div>
+      </article>
+
+      <!-- E-commerce -->
+      <article class="card c-third reveal">
+        <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 7h12l-1 13H7L6 7Z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg></span>
+        <h3>E-commerce e marketplaces</h3>
+        <p>Lojas com checkout Pix, cartão e boleto, frete automático e gestão de estoque. É o que a Buy+ faz todo dia.</p>
+      </article>
+
+      <!-- APIs -->
+      <article class="card c-third reveal d1">
+        <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m8 7-5 5 5 5M16 7l5 5-5 5M14 4l-4 16"/></svg></span>
+        <h3>APIs e back-end</h3>
+        <p>APIs rápidas, documentadas e seguras, prontas para crescer de dez para dez mil usuários sem reescrever.</p>
+      </article>
+
+      <!-- Dashboards -->
+      <article class="card c-third reveal d2">
+        <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></span>
+        <h3>Dashboards e BI</h3>
+        <p>Os números do negócio num painel só, atualizados em tempo real, para decidir com dado e não com palpite.</p>
+      </article>
+
+      <!-- Cloud -->
+      <article class="card c-third reveal">
+        <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 18h10a4 4 0 0 0 .5-7.97A6 6 0 0 0 6.1 9.1 4.5 4.5 0 0 0 7 18Z"/></svg></span>
+        <h3>Cloud, DevOps e segurança</h3>
+        <p>Infraestrutura na nuvem, backups automáticos, monitoramento 24h, HTTPS e boas práticas de LGPD.</p>
+      </article>
+
+      <!-- Sites -->
+      <article class="card c-third reveal d1">
+        <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M3 9h18M7 6.5h.01M10 6.5h.01"/></svg></span>
+        <h3>Sites e landing pages</h3>
+        <p>Páginas rápidas, bonitas e otimizadas para o Google, feitas para transformar visita em contato.</p>
+      </article>
+
+      <!-- Legado -->
+      <article class="card c-third reveal d2">
+        <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12a8 8 0 0 1 14-5.3M20 12a8 8 0 0 1-14 5.3M18 3v4h-4M6 21v-4h4"/></svg></span>
+        <h3>Modernização de sistemas</h3>
+        <p>Aquele sistema antigo que ninguém quer mexer? A gente migra, documenta e dá vida nova sem parar a operação.</p>
+      </article>
+
+      <!-- MVP / Design -->
+      <article class="card c-half reveal">
+        <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3l2.5 5.5L20 9l-4 4 1 6-5-3-5 3 1-6-4-4 5.5-.5L12 3Z"/></svg></span>
+        <h3>MVP para startups</h3>
+        <p>Tem uma ideia de produto? Validamos o essencial, construímos a primeira versão e colocamos na mão de clientes reais, rápido e sem desperdício.</p>
+      </article>
+      <article class="card c-half reveal d1">
+        <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M5 19l2-2M17 7l2-2"/></svg></span>
+        <h3>UI/UX e design de produto</h3>
+        <p>Pesquisa, protótipo navegável e interface pensada para quem vai usar. Software bom é software que ninguém precisa de manual.</p>
+      </article>
+    </div>
+
+    <p class="more reveal">Não achou o que precisa? <a href="#projeto">Conte pra gente</a>. Se é software, a resposta é sim.</p>
+  </div>
+</section>
+
+<!-- PRODUTOS -->
+<section class="section products" id="produtos">
+  <div class="wrap">
+    <header class="sec-head reveal">
+      <p class="kicker">Nossos produtos</p>
+      <h2>Duas plataformas nossas,<br><span class="grad-text">no ar e vendendo.</span></h2>
+      <p class="sec-sub">Antes de construir o seu software, construímos os nossos. A Planta e a Buy+ nasceram aqui, rodam em produção e provam o padrão que levamos para cada cliente.</p>
+    </header>
+
+    <article class="prod prod-planta reveal">
+      <div class="prod-txt">
+        <img class="prod-logo" src="assets/planta-logo.svg" alt="Planta" width="180" height="48">
+        <h3>Site, CRM e portais para imobiliárias.</h3>
+        <p>Site com a marca da imobiliária e busca no mapa, CRM que leva cada lead direto pro WhatsApp e publicação automática nos maiores portais do país, tudo a partir de um cadastro só.</p>
+        <ul>
+          <li>Busca por raio no mapa</li>
+          <li>CRM de leads integrado ao WhatsApp</li>
+          <li>Publica em OLX, ZAP, Viva Real e Chaves na Mão</li>
+          <li>Painel para a equipe de corretores</li>
+        </ul>
+        <a class="btn btn-lime" href="https://louick.github.io/planta-landing/" target="_blank" rel="noopener">Conhecer a Planta <span class="arr">↗</span></a>
+      </div>
+      <a class="prod-shot" href="https://louick.github.io/planta-landing/" target="_blank" rel="noopener" aria-label="Abrir o site da Planta">
+        <img src="assets/shot-planta.webp" alt="Tela do site de imobiliária feito com a Planta, com imóveis à venda e busca no mapa" width="1400" height="770" loading="lazy">
+      </a>
+    </article>
+
+    <article class="prod prod-buy reveal">
+      <a class="prod-shot" href="https://louick.github.io/buyplus-landing/" target="_blank" rel="noopener" aria-label="Abrir o site da Buy+">
+        <img src="assets/shot-buyplus.webp" alt="Loja online feita com a Buy+, com vitrine de produtos e checkout Pix no celular" width="1400" height="926" loading="lazy">
+      </a>
+      <div class="prod-txt">
+        <img class="prod-logo" src="assets/buyplus-logo.png" alt="Buy+" width="180" height="56">
+        <h3>A loja online completa, com a sua marca.</h3>
+        <p>Plataforma de e-commerce para qualquer segmento: vitrine, checkout com Pix, cartão e boleto, estoque que se atualiza sozinho, cupons, frete automático e relatórios de venda.</p>
+        <ul>
+          <li>Checkout Pix, cartão e boleto</li>
+          <li>Variações, estoque e cupons</li>
+          <li>Frete automático e rotas de entrega</li>
+          <li>Equipe, relatórios e SEO</li>
+        </ul>
+        <a class="btn btn-violet" href="https://louick.github.io/buyplus-landing/" target="_blank" rel="noopener">Conhecer a Buy+ <span class="arr">↗</span></a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- CONFIGURADOR -->
+<section class="section build" id="projeto">
+  <div class="wrap">
+    <header class="sec-head reveal">
+      <p class="kicker">Monte seu projeto</p>
+      <h2>Escolha as peças.<br><span class="grad-text">A gente compila.</span></h2>
+      <p class="sec-sub">Marque o que o seu software precisa ter e veja o projeto tomando forma. No final, é só mandar pra gente: a conversa já começa adiantada.</p>
+    </header>
+
+    <div class="builder reveal">
+      <div class="b-form">
+        <fieldset>
+          <legend><span>01</span> O que você quer construir?</legend>
+          <div class="chips" id="tipo" role="radiogroup">
+            <button type="button" role="radio" aria-checked="true" data-v="Sistema web">Sistema web</button>
+            <button type="button" role="radio" aria-checked="false" data-v="Aplicativo">Aplicativo</button>
+            <button type="button" role="radio" aria-checked="false" data-v="Loja online">Loja online</button>
+            <button type="button" role="radio" aria-checked="false" data-v="Automação com IA">Automação com IA</button>
+            <button type="button" role="radio" aria-checked="false" data-v="Site institucional">Site</button>
+            <button type="button" role="radio" aria-checked="false" data-v="Outra ideia">Outra ideia</button>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend><span>02</span> O que ele precisa ter?</legend>
+          <div class="chips multi" id="recursos">
+            <button type="button" aria-pressed="true" data-v="Login e usuários">Login e usuários</button>
+            <button type="button" aria-pressed="true" data-v="Painel administrativo">Painel admin</button>
+            <button type="button" aria-pressed="false" data-v="Pagamentos (Pix e cartão)">Pagamentos</button>
+            <button type="button" aria-pressed="false" data-v="Integração com WhatsApp">WhatsApp</button>
+            <button type="button" aria-pressed="false" data-v="Relatórios e dashboards">Relatórios</button>
+            <button type="button" aria-pressed="false" data-v="Assistente com IA">Assistente com IA</button>
+            <button type="button" aria-pressed="false" data-v="Agenda e reservas">Agenda</button>
+            <button type="button" aria-pressed="false" data-v="Notificações push">Notificações</button>
+            <button type="button" aria-pressed="false" data-v="Mapa e geolocalização">Mapa</button>
+            <button type="button" aria-pressed="false" data-v="Integração com ERP ou nota fiscal">ERP / nota fiscal</button>
+            <button type="button" aria-pressed="false" data-v="Funciona offline">Modo offline</button>
+            <button type="button" aria-pressed="false" data-v="Várias empresas ou filiais">Multiempresa</button>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend><span>03</span> Pra quando?</legend>
+          <div class="chips" id="prazo" role="radiogroup">
+            <button type="button" role="radio" aria-checked="false" data-v="Sem pressa, quero fazer bem feito">Sem pressa</button>
+            <button type="button" role="radio" aria-checked="true" data-v="Nos próximos meses">Próximos meses</button>
+            <button type="button" role="radio" aria-checked="false" data-v="É urgente">É urgente</button>
+          </div>
+        </fieldset>
+      </div>
+
+      <div class="b-term" aria-live="polite">
+        <div class="t-head"><i></i><i></i><i></i><span>lm-cli · seu-projeto</span></div>
+        <div class="t-body">
+          <p class="t-cmd"><span class="t-p">~/lm $</span> <span id="tCmd"></span></p>
+          <div id="tOut"></div>
+        </div>
+        <div class="t-meter">
+          <div><small>Módulos</small><b id="mMods">0</b></div>
+          <div><small>Complexidade</small><b id="mCx">Baixa</b></div>
+          <div><small>Fases</small><b id="mFases">4</b></div>
+        </div>
+        <div class="t-actions">
+          <a class="btn btn-grad" id="sendWa" href="#" target="_blank" rel="noopener">
+            <svg class="wa-ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg> Enviar pelo WhatsApp</a>
+          <button type="button" class="btn btn-ghost" id="sendIg">
+            <svg class="wa-ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-ig"/></svg> Enviar pelo Instagram</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESSO -->
+<section class="section" id="processo">
+  <div class="wrap">
+    <header class="sec-head reveal">
+      <p class="kicker">Como a gente trabalha</p>
+      <h2>Processo claro.<br><span class="grad-text">Zero caixa-preta.</span></h2>
+      <p class="sec-sub">Você sabe o que está sendo feito, quando vai ficar pronto e quanto vai custar. Sem sumiço, sem surpresa na fatura.</p>
+    </header>
+    <ol class="steps" id="steps">
+      <li class="reveal"><span class="s-n">01</span><h3>Conversa e diagnóstico</h3><p>Entendemos o seu negócio, o problema de verdade e o que já existe hoje.</p></li>
+      <li class="reveal d1"><span class="s-n">02</span><h3>Proposta com escopo fechado</h3><p>Tudo por escrito: o que será entregue, em quanto tempo e por qual valor.</p></li>
+      <li class="reveal d2"><span class="s-n">03</span><h3>Design e protótipo</h3><p>Você navega pelas telas e aprova antes de uma linha de código ser escrita.</p></li>
+      <li class="reveal d3"><span class="s-n">04</span><h3>Desenvolvimento em ciclos</h3><p>Entregas a cada uma ou duas semanas, testáveis, com você acompanhando.</p></li>
+      <li class="reveal d4"><span class="s-n">05</span><h3>Lançamento e evolução</h3><p>Publicamos, monitoramos e seguimos junto com suporte e melhorias.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- CONFIANÇA + BELÉM -->
+<section class="section trust">
+  <div class="wrap trust-grid">
+    <div class="trust-hero reveal">
+      <div class="coords" aria-hidden="true">01°27′S · 48°30′W</div>
+      <p class="kicker">Por que a LM</p>
+      <h2>Feito em Belém.<br><span class="grad-text">Pronto pro mundo.</span></h2>
+      <p class="sec-sub">Desde 2020 transformando ideias em software a partir da porta da Amazônia, atendendo empresas de todo o Brasil com a mesma proximidade de quem está na sala ao lado.</p>
+      <div class="year" aria-hidden="true"><span>20</span><span>20</span></div>
+    </div>
+    <ul class="pillars">
+      <li class="reveal"><h3>Você fala com quem desenvolve</h3><p>Nada de telefone sem fim. O contato é direto com a equipe que constrói o seu projeto.</p></li>
+      <li class="reveal d1"><h3>O código e os dados são seus</h3><p>Repositório, acessos e documentação ficam com você. Sem refém, sem dependência.</p></li>
+      <li class="reveal d2"><h3>Escopo, prazo e preço por escrito</h3><p>Proposta detalhada e contrato antes de começar. Combinado não sai caro.</p></li>
+      <li class="reveal"><h3>Segurança e LGPD desde o início</h3><p>Criptografia, backups, controle de acesso e privacidade fazem parte do projeto, não do remendo.</p></li>
+      <li class="reveal d1"><h3>Suporte que não some</h3><p>Depois do lançamento, seguimos de perto com manutenção, monitoramento e novas versões.</p></li>
+      <li class="reveal d2"><h3>Produtos próprios em produção</h3><p>Planta e Buy+ rodam todos os dias. Sabemos o que é manter software vivo de verdade.</p></li>
+    </ul>
+  </div>
+</section>
+
+<!-- STACK -->
+<section class="section stack">
+  <div class="wrap">
+    <header class="sec-head center reveal">
+      <p class="kicker">Tecnologia</p>
+      <h2>Ferramentas de ponta, <span class="grad-text">escolhidas pra durar.</span></h2>
+      <p class="sec-sub">Usamos a tecnologia certa para cada problema, a mesma que move as maiores empresas do mundo.</p>
+    </header>
+    <div class="stack-grid reveal" id="stackGrid"></div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section" id="faq">
+  <div class="wrap faq-grid">
+    <header class="sec-head reveal">
+      <p class="kicker">Dúvidas</p>
+      <h2>Perguntas <span class="grad-text">frequentes.</span></h2>
+      <p class="sec-sub">Não achou a sua? Chama no WhatsApp que a gente responde rapidinho.</p>
+      <a class="btn btn-ghost" data-wa="Olá! Vim pelo site da LM Soluções e tenho uma dúvida." href="#" target="_blank" rel="noopener">Perguntar no WhatsApp</a>
+    </header>
+    <div class="faq">
+      <details class="reveal"><summary>Quanto custa um software sob medida?<i></i></summary><p>Depende do tamanho do projeto: um site institucional e um ERP completo são mundos diferentes. Depois da primeira conversa você recebe uma proposta com escopo, prazo e valor fechados, sem compromisso.</p></details>
+      <details class="reveal"><summary>Quanto tempo leva para ficar pronto?<i></i></summary><p>Sites e landing pages costumam sair em poucas semanas. Sistemas e aplicativos são entregues em ciclos: a primeira versão utilizável chega cedo, e o restante evolui em cima dela. O prazo exato vai na proposta.</p></details>
+      <details class="reveal"><summary>Vocês atendem só em Belém?<i></i></summary><p>Não. Nossa base é em Belém do Pará, mas atendemos empresas de todo o Brasil com reuniões on-line e acompanhamento remoto. Para clientes da região, dá pra sentar junto também.</p></details>
+      <details class="reveal"><summary>O código-fonte fica comigo?<i></i></summary><p>Sim. Em projetos sob medida o código, o repositório, os acessos e a documentação são do cliente. Você não fica preso à LM.</p></details>
+      <details class="reveal"><summary>Vocês assumem um sistema que outra empresa fez?<i></i></summary><p>Assumimos. Fazemos um diagnóstico do que existe, estabilizamos, documentamos e planejamos a evolução ou a migração, sem parar a sua operação.</p></details>
+      <details class="reveal"><summary>E depois que o projeto é entregue?<i></i></summary><p>Oferecemos planos de suporte e manutenção com monitoramento, correções, atualizações de segurança e novas funcionalidades conforme o seu negócio cresce.</p></details>
+      <details class="reveal"><summary>Vocês assinam contrato e acordo de confidencialidade?<i></i></summary><p>Sempre. Todo projeto tem contrato, e assinamos NDA quando a ideia precisa ficar em sigilo antes do lançamento.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- CONTATO -->
+<section class="section contact" id="contato">
+  <div class="wrap">
+    <div class="contact-box reveal">
+      <div class="cb-glow" aria-hidden="true"></div>
+      <div class="cb-copy">
+        <p class="kicker">Contato</p>
+        <h2>Bora tirar a sua ideia <span class="grad-text">do papel?</span></h2>
+        <p class="sec-sub">Conte rapidinho o que você precisa. A mensagem vai direto pro nosso Direct do Instagram e a gente responde em pouco tempo.</p>
+        <ul class="c-list">
+          <li><a data-wa="Olá! Vim pelo site da LM Soluções e quero conversar sobre um projeto." href="#" target="_blank" rel="noopener"><span class="c-ico wa"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg></span><span><small>WhatsApp</small><b>(91) 98479-1651</b></span></a></li>
+          <li><a href="https://www.instagram.com/lm.solucoes_/" target="_blank" rel="noopener"><span class="c-ico ig"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-ig"/></svg></span><span><small>Instagram</small><b>@lm.solucoes_</b></span></a></li>
+          <li><div><span class="c-ico pin"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-12a7 7 0 0 1 14 0c0 5.8-7 12-7 12Z"/><circle cx="12" cy="9" r="2.5"/></svg></span><span><small>Base</small><b>Belém, Pará · atendemos todo o Brasil</b></span></div></li>
+        </ul>
+      </div>
+
+      <form class="c-form" id="cForm" novalidate>
+        <div class="f-row">
+          <label><span>Seu nome</span><input name="nome" autocomplete="name" required placeholder="Como podemos te chamar?"></label>
+          <label><span>Empresa <em>(opcional)</em></span><input name="empresa" autocomplete="organization" placeholder="Nome do negócio"></label>
+        </div>
+        <label><span>WhatsApp para retorno</span><input name="fone" type="tel" inputmode="tel" autocomplete="tel" placeholder="(91) 90000-0000"></label>
+        <label><span>Tipo de projeto</span>
+          <select name="tipo">
+            <option>Sistema web</option><option>Aplicativo</option><option>Loja online</option><option>Automação ou IA</option><option>Site ou landing page</option><option>Manutenção de sistema existente</option><option>Ainda não sei, quero conversar</option>
+          </select>
+        </label>
+        <label><span>Conte sobre a sua ideia</span><textarea name="msg" rows="4" required placeholder="O que você quer construir? Qual problema ele resolve?"></textarea></label>
+        <button class="btn btn-grad btn-lg f-send" type="submit"><svg class="wa-ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-ig"/></svg> Enviar pelo Instagram</button>
+        <p class="f-note" id="fNote">Ao enviar, sua mensagem é copiada e o Direct da LM abre. É só colar e enviar.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="wrap f-grid">
+    <div class="f-brand">
+      <img src="assets/lm-logo.png" alt="LM Soluções · Tecnologia que impulsiona" width="883" height="775" loading="lazy">
+    </div>
+    <div class="f-cols">
+      <div><h4>Empresa</h4><a href="#servicos">Serviços</a><a href="#processo">Como trabalhamos</a><a href="#faq">Dúvidas</a><a href="#contato">Contato</a></div>
+      <div><h4>Produtos</h4><a href="https://louick.github.io/planta-landing/" target="_blank" rel="noopener">Planta · imobiliárias</a><a href="https://louick.github.io/buyplus-landing/" target="_blank" rel="noopener">Buy+ · e-commerce</a></div>
+      <div><h4>Fale com a gente</h4><a data-wa="Olá! Vim pelo site da LM Soluções." href="#" target="_blank" rel="noopener">WhatsApp (91) 98479-1651</a><a href="https://www.instagram.com/lm.solucoes_/" target="_blank" rel="noopener">Instagram @lm.solucoes_</a><span>Belém · Pará · Brasil</span></div>
+    </div>
+  </div>
+  <div class="wrap f-bottom">
+    <p>© 2020–<span id="year">2026</span> LM Soluções · Tecnologia que impulsiona.</p>
+    <p>Feito com código próprio, em Belém do Pará.</p>
+  </div>
+</footer>
+
+<a class="wa-float" data-wa="Olá! Vim pelo site da LM Soluções e quero conversar sobre um projeto." href="#" target="_blank" rel="noopener" aria-label="Conversar no WhatsApp">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg>
+</a>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.64.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.07.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.41-.07-.12-.27-.2-.57-.35M12.05 21.8h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88a9.82 9.82 0 0 1 6.99 2.9 9.82 9.82 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88m8.41-18.3A11.81 11.81 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.9 0-3.18-1.24-6.16-3.48-8.41"/></symbol>
+  <symbol id="i-ig" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" d="M7 2.8h10A4.2 4.2 0 0 1 21.2 7v10a4.2 4.2 0 0 1-4.2 4.2H7A4.2 4.2 0 0 1 2.8 17V7A4.2 4.2 0 0 1 7 2.8Z"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.4" cy="6.6" r="1.2" fill="currentColor"/></symbol>
+</svg>
+
+<script src="app.js?v=1"></script>
+</body>
+</html>
