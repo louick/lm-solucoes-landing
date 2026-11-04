@@ -217,7 +217,6 @@ const CONTATO = {
 
     $('#sendWa').href = wa(brief());
   };
-  $('#sendIg').addEventListener('click', () => sendInstagram(brief()));
   renderBuild();
 
   /* formulário → Instagram */
@@ -235,7 +234,7 @@ const CONTATO = {
       `Projeto: ${f.tipo}`,
       `Ideia: ${f.msg.trim()}`
     ].filter(Boolean).join('\n');
-    sendInstagram(txt);
+    window.open(wa(txt), '_blank', 'noopener');
   });
   $$('input,textarea', form).forEach(el => el.addEventListener('input', () => el.classList.remove('bad')));
 
